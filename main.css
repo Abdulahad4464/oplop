@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "yozuvli";
+    src: url("./static/DancingScript-Bold.ttf");
+}
+@font-face {
+    font-family: "sdtg";
+    src: url("./static/DancingScript-Medium.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    background-color: aqua;
+    text-align: center;
+    margin: 1rem 0px;
+    color: red;
+    font-family: "sdtg";
+}
+.desc{
+    font-size: 3rem;
+    text-align: center;
+    color: red;
+    font-family: "yozuvli";
+}
+html body .main .desc{
+    color: gold;
+}
+body .main .desc{
+    color:greenyellow;
+}
